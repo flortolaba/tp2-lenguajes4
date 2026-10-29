@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.botones {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btnIniciar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btnDetener {
+    background-color: #f44336;
+    color: white;
+}
+
+#btnLimpiar {
+    background-color: #555;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.historial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.historial h2 {
+    margin-bottom: 15px;
+}
+
+#listaHistorial {
+    list-style: none;
+}
+
+#listaHistorial li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
